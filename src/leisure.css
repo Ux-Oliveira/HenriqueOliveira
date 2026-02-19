@@ -143,14 +143,21 @@
     display: block;
   }
 
-  /* Vertical stack */
-  .leisure .horizontal-track {
-    flex-direction: column;
-    padding: 100px 16px 60px;
-    gap: 50px;
-    align-items: center; /* CENTER EVERYTHING */
-    scroll-snap-type: y mandatory;
-  }
+/* ================= CARDS SMALLER + CENTERED ================= */
+.leisure .horizontal-track {
+  align-items: center; /* prevent stretch */
+}
+
+.leisure .leisure-item {
+  width: auto;              /* 🔴 stops full-width stretch */
+  max-width: 280px;
+  min-width: unset;         /* kill desktop constraint */
+  margin: 0 auto;           /* hard center */
+  padding: 18px;
+  font-size: 0.92rem;
+  scroll-snap-align: center;
+}
+
 
   /* ================= TITLE (KEEP BIG) ================= */
   .leisure .leisure-intro h1 {
@@ -173,13 +180,6 @@
     scroll-snap-align: start;
   }
 
-  /* ================= CARDS SMALLER ================= */
-  .leisure .leisure-item {
-    max-width: 280px;   /* smaller card width */
-    padding: 18px;      /* less padding */
-    font-size: 0.92rem; /* smaller text */
-    scroll-snap-align: start;
-  }
 
   /* Smaller GIF */
   .leisure .frame {
