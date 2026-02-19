@@ -119,3 +119,72 @@
   cursor: pointer;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+
+  /* Unlock layout */
+  .leisure {
+    overflow: auto;
+  }
+
+  .leisure .scroll-container {
+    position: static;
+    overflow-y: auto;
+  }
+
+  .leisure .scroll-spacer {
+    display: none; /* no fake scroll */
+  }
+
+  .leisure .viewport {
+    position: static;
+    overflow: visible;
+    display: block;
+  }
+
+  /* Turn horizontal into vertical stack */
+  .leisure .horizontal-track {
+    flex-direction: column;
+    padding: 120px 20px 60px;
+    gap: 60px;
+
+    /* SNAP MAGIC */
+    scroll-snap-type: y mandatory;
+  }
+
+  /* Intro card sizing */
+  .leisure .leisure-intro {
+    min-width: auto;
+    max-width: 100%;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+
+  /* Cards */
+  .leisure .leisure-item {
+    min-width: auto;
+    max-width: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+  }
+
+  /* Make cards feel centered */
+  .leisure .horizontal-track > * {
+    margin: 0 auto;
+  }
+
+  /* GIF height tweak */
+  .leisure .frame {
+    height: 220px;
+  }
+
+  /* Remove hover animations on mobile */
+  .leisure .leisure-item:hover {
+    transform: none;
+  }
+
+  /* iOS smooth snap */
+  .leisure {
+    -webkit-overflow-scrolling: touch;
+  }
+}
