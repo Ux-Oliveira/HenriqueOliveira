@@ -175,7 +175,6 @@
 
   /* ================= CARDS SMALLER ================= */
   .leisure .leisure-item {
-    width: 100%;
     max-width: 280px;   /* smaller card width */
     padding: 18px;      /* less padding */
     font-size: 0.92rem; /* smaller text */
