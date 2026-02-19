@@ -20,8 +20,8 @@ export default function Navbar({ setPage, page }) {
       {/* HIDE LINKS ON LEISURE */}
       {!isLeisure && (
         <div className="links">
-          <button onClick={() => go("work")}>Work</button>
-          <button onClick={() => go("history")}>History</button>
+          <button onClick={() => go("work")}>Projects</button>
+          <button onClick={() => go("history")}>Work History</button>
           <button onClick={() => setPage("leisure")}>Leisure</button>
         </div>
       )}
