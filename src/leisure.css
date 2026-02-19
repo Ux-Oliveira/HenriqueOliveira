@@ -122,15 +122,14 @@
 
 @media (max-width: 768px) {
 
-  /* Make leisure scroll normally */
+  /* NORMAL FLOW */
   .leisure {
     position: relative;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    padding: 100px 20px 60px;
+    padding: 90px 0 60px; /* remove side padding causing tilt */
   }
 
-  /* Remove desktop scroll logic */
+  /* Kill desktop scroll system */
   .leisure .scroll-container,
   .leisure .scroll-spacer,
   .leisure .viewport {
@@ -139,53 +138,60 @@
     overflow: visible;
   }
 
-  /* Stack everything vertically */
+  /* TRUE CENTER COLUMN */
   .leisure .horizontal-track {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
+    gap: 40px;
     padding: 0;
+    margin: 0 auto;
+    width: 100%;
     transform: none !important;
   }
 
-  /* ===== TITLE ===== */
+  /* ================= TITLE ================= */
   .leisure .leisure-intro {
-    width: 100%;
-    max-width: 320px;
+    width: 90%;
+    max-width: 280px; /* tighter */
     text-align: center;
+    margin: 0 auto;
   }
 
   .leisure .leisure-intro h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .leisure .leisure-intro p {
-    font-size: 0.95rem;
-    opacity: 0.85;
+    font-size: 0.9rem;
   }
 
-  /* ===== CARDS ===== */
+  /* ================= CARDS ================= */
   .leisure .leisure-item {
-    width: 100%;
-    max-width: 300px;   /* smaller centered cards */
-    padding: 18px;
-    border-radius: 18px;
+    width: 90%;
+    max-width: 260px;  /* SMALLER CARDS */
+    min-width: unset;  /* kill desktop constraint */
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
   }
 
   /* Smaller GIF */
   .leisure .frame {
-    height: 180px;
+    height: 150px; /* smaller */
   }
 
-  /* Center button */
+  /* Button center */
   .leisure .visit-btn {
-    padding: 8px 12px;
-    font-size: 0.85rem;
-    display: block;
-    margin: 14px auto 0;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 7px 10px;
+    font-size: 0.8rem;
   }
 
-  /* Disable hover effect on mobile */
+  /* Remove hover transform */
   .leisure .leisure-item:hover {
     transform: none;
   }
