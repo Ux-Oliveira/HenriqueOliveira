@@ -122,77 +122,70 @@
 
 @media (max-width: 768px) {
 
-  /* Unlock layout */
+  /* Make leisure scroll normally */
   .leisure {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .leisure .scroll-container {
-    position: static;
+    position: relative;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 100px 20px 60px;
   }
 
-  .leisure .scroll-spacer {
-    display: none;
-  }
-
+  /* Remove desktop scroll logic */
+  .leisure .scroll-container,
+  .leisure .scroll-spacer,
   .leisure .viewport {
     position: static;
+    height: auto;
     overflow: visible;
-    display: block;
   }
 
-/* ================= CARDS SMALLER + CENTERED ================= */
-.leisure .horizontal-track {
-  align-items: center; /* prevent stretch */
-}
+  /* Stack everything vertically */
+  .leisure .horizontal-track {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0;
+    transform: none !important;
+  }
 
-.leisure .leisure-item {
-  width: auto;              /* 🔴 stops full-width stretch */
-  max-width: 280px;
-  min-width: unset;         /* kill desktop constraint */
-  margin: 0 auto;           /* hard center */
-  padding: 18px;
-  font-size: 0.92rem;
-  scroll-snap-align: center;
-}
-
-
-  /* ================= TITLE (KEEP BIG) ================= */
-  .leisure .leisure-intro h1 {
-    font-size: clamp(2.2rem, 6vw, 2.6rem);
+  /* ===== TITLE ===== */
+  .leisure .leisure-intro {
+    width: 100%;
+    max-width: 320px;
     text-align: center;
   }
 
-  /* Subtitle smaller */
+  .leisure .leisure-intro h1 {
+    font-size: 2.2rem;
+  }
+
   .leisure .leisure-intro p {
     font-size: 0.95rem;
-    max-width: 340px;
-    margin: 0 auto;
-    text-align: center;
+    opacity: 0.85;
   }
 
-  /* Intro container centered */
-  .leisure .leisure-intro {
-    max-width: 360px;
-    text-align: center;
-    scroll-snap-align: start;
+  /* ===== CARDS ===== */
+  .leisure .leisure-item {
+    width: 100%;
+    max-width: 300px;   /* smaller centered cards */
+    padding: 18px;
+    border-radius: 18px;
   }
-
 
   /* Smaller GIF */
   .leisure .frame {
     height: 180px;
   }
 
-  /* Button smaller */
+  /* Center button */
   .leisure .visit-btn {
     padding: 8px 12px;
     font-size: 0.85rem;
+    display: block;
+    margin: 14px auto 0;
   }
 
-  /* Remove hover on mobile */
+  /* Disable hover effect on mobile */
   .leisure .leisure-item:hover {
     transform: none;
   }
