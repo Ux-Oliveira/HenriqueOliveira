@@ -156,7 +156,7 @@
     width: 100%;
     max-width: 260px; /* tighter */
     text-align: center;
-    margin: 0 auto;
+    margin-left: 20px;
   }
 
   .leisure .leisure-intro h1 {
