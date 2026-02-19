@@ -515,5 +515,8 @@ body {
     padding: 24px;      /* slightly tighter */
     box-sizing: border-box;
   }
+  .scrollTop {
+    margin-left: -50px;
+  }
 }
 
