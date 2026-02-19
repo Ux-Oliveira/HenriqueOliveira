@@ -153,8 +153,8 @@
 
   /* ================= TITLE ================= */
   .leisure .leisure-intro {
-    width: 90%;
-    max-width: 280px; /* tighter */
+    width: 100%;
+    max-width: 260px; /* tighter */
     text-align: center;
     margin: 0 auto;
   }
