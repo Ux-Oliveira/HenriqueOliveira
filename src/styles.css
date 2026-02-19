@@ -7,10 +7,16 @@
   --dark: #323232;
 }
 
-.html, body {
+html, body {
   overflow-x: hidden;
   width: 100%;
+  max-width: 100vw;
 }
+/* Prevent animation overflow */
+section, .work, .panel {
+  overflow-x: clip;
+}
+
 
 body {
   margin: 0;
@@ -516,7 +522,10 @@ body {
     box-sizing: border-box;
   }
   .scrollTop {
-    margin-left: 80px;
+    position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 0; /* ensure no drift */
   }
 }
 
