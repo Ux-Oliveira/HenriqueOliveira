@@ -489,3 +489,25 @@ body {
     transform: translateY(10px);
   }
 }
+
+@media (max-width: 768px) {
+
+  /* Prevent invisible horizontal push */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Make modal truly centered */
+  .modal {
+    padding: 20px; /* breathing room from edges */
+  }
+
+  .modal-box {
+    width: 100%;
+    max-width: 320px;   /* smaller mobile modal */
+    margin: 0 auto;     /* HARD center */
+    padding: 24px;      /* slightly tighter */
+    box-sizing: border-box;
+  }
+}
+
