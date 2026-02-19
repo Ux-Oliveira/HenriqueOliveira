@@ -8,7 +8,7 @@ const projects = [
     link: "https://floreios-colados.vercel.app/"
   },
   {
-    title: "Sumito",
+    title: "Sumito Clothing",
     description: "Shopify powered e-commerce platform for a clothing store built with React and Tailwind.",
     gif: "/gifs/sumito.gif",
     link: "#"
