@@ -196,3 +196,31 @@
     transform: none;
   }
 }
+/* ===== TEXT FIX ===== */
+
+/* Center all text inside cards */
+.leisure .leisure-item h3,
+.leisure .leisure-item p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make card text smaller */
+.leisure .leisure-item h3 {
+  font-size: 0.95rem; /* ~10px visual reduction */
+}
+
+.leisure .leisure-item p {
+  font-size: 0.78rem;  /* smaller description */
+  line-height: 1.35;   /* tighter = cleaner */
+  opacity: 0.85;
+  max-width: 200px;    /* prevents edge stretching */
+}
+
+/* Also center intro paragraph perfectly */
+.leisure .leisure-intro p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 220px;
+}
