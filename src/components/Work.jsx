@@ -8,6 +8,12 @@ const projects = [
     link: "https://floreios-colados.vercel.app/"
   },
   {
+    title: "Neon Grizzly",
+    description: "E-commerce platform for a clothing store, built with React and Tailwind.",
+    gif: "/gifs/neon.gif",
+    link: "https://neongrizzly.com/"
+  },
+  {
     title: "Sumito Clothing",
     description: "Shopify powered e-commerce platform for a clothing store built with React and Tailwind.",
     gif: "/gifs/sumito.gif",
@@ -17,12 +23,6 @@ const projects = [
     title: "UpTown",
     description: "Production Companies Dashboard with a functional news letter component built with React.",
     gif: "/gifs/uptown.gif",
-    link: "#"
-  },
-  {
-    title: "Ayylien Clothing",
-    description: "E-commerce platform for a clothing store, built with React and Tailwind.",
-    gif: "/gifs/alien.gif",
     link: "#"
   }
 ];
