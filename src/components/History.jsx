@@ -17,7 +17,7 @@ export default function History() {
               Front-end developer with 5+ years of experience building
               immersive userbased platforms, modern interfaces and AI-powered web apps and software.
               <span className="history-link" onClick={() => setOpen(true)}>
-                {" "}Click to see my work history →
+                {" "}My work history →
               </span>
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function History() {
 
           {/* BUTTONS */}
           <div className="buttons">
-            <a href="https://drive.google.com/file/d/1w-BprsCAdfDc6HmeqkfIZ_a7p9cOmfda/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><button className="btn glow">My Resume</button></a>
+            <a href="https://drive.google.com/file/d/1rPoKA51oNIP9cHHp6faJxj-KppKpSNFM/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn glow">My Resume</button></a>
             <a href="https://www.coursera.org/account/accomplishments/professional-cert/Q9S3RXYKXTJE" target="_blank" rel="noopener noreferrer"><button className="btn glow alt">Google UX Cert</button></a>
           </div>
 
