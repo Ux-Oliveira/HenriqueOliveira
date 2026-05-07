@@ -15,16 +15,16 @@ const projects = [
     link: "https://neongrizzly.com/"
   },
   {
-    title: "Sumito Clothing",
-    description: "Shopify powered e-commerce platform for a clothing store built with React and Tailwind.",
-    gif: "/gifs/sumito.gif",
-    link: "#"
+    title: "Katana Coach",
+    description: "Improving landing page performance and user experience on mobile fiteness app.",
+    gif: "/gifs/Katana.gif",
+    link: "https://katanacoach.com/"
   },
   {
     title: "UpTown",
     description: "Production Companies Dashboard with a functional news letter component built with React.",
     gif: "/gifs/uptown.gif",
-    link: "#"
+    link: "https://uptown-pi.vercel.app/"
   }
 ];
 
@@ -86,10 +86,10 @@ export default function Work() {
             )}
             {openIndex === 2 && (
               <div className="job">
-                <h3 className="job-title">Sumito Clothing</h3>
-                <div className="job-meta">Shopify + Frontend Integration</div>
+                <h3 className="job-title">Katana Coaching</h3>
+                <div className="job-meta">Costume UI framework + Frontend Integration</div>
                 <ul className="job-points">
-                  <li>Integrated Shopify backend with custom frontend UI.</li>
+                  <li>Optimization and scaling of the mobile application.</li>
                   <li>Built responsive product browsing experience.</li>
                   <li>Enhanced UX with clean layout and navigation.</li>
                   <li>Optimized for performance and SEO.</li>
