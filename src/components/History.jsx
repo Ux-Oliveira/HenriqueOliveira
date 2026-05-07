@@ -113,7 +113,7 @@ export default function History() {
   <h3 class="job-title">Frontend Developer (UX/UI Focused)</h3>
   <div class="job-meta">Skalory (Digital Union GmbH) GER | June 2023 - August 2025</div>
   <ul class="job-points">
-    <li>Designed and coded responsive HTML/CSS newsletters optimized for major email clients. Using Salesforce Marketing Cloud and Mailchimp with cross-client compatibility.</li>
+    <li>Designed and coded responsive HTML/CSS newsletters optimized for major email clients.</li>
     <li>Development of web applications, dashboards, and user-centric platforms.</li>
     <li>Conducted A/B testing on subject lines, layout formats, and CTA placement.</li>
     <li>Responsibility for architectural decisions and prototyping from conception to launch.</li>
