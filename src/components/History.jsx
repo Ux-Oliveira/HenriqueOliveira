@@ -14,8 +14,9 @@ export default function History() {
 
           <div className="profile-overlay">
             <p>
-              Front-end developer with 5+ years of experience building
-              immersive userbased platforms, modern interfaces and AI-powered web apps and software.
+              Frontend Engineer (React/Vue) | UX & Product Systems
+              With 4+ years of experience building
+              immersive userbased platforms, modern interfaces and AI-integrated web apps and SaaS applications.
               <span className="history-link" onClick={() => setOpen(true)}>
                 {" "}My work history →
               </span>
@@ -34,7 +35,7 @@ export default function History() {
             </div>
 
             <div className="stack-item">
-              <h4>React, Vite, Next, Node & Angular</h4>
+              <h4>React, Vite, Next, Node, Vue & Angular</h4>
               <p>Component-based architectures tailored to scale.</p>
             </div>
 
@@ -109,15 +110,15 @@ export default function History() {
            <h2 class="modal-title">Work History</h2>
 
 <div class="job">
-  <h3 class="job-title">UX/UI Designer</h3>
-  <div class="job-meta">Media a La Carte KSA | June 2024 - August 2025</div>
+  <h3 class="job-title">Frontend Developer (UX/UI Focused)</h3>
+  <div class="job-meta">Skalory (Digital Union GmbH) GER | June 2023 - August 2025</div>
   <ul class="job-points">
-    <li>Designed and coded responsive HTML/CSS newsletters optimized for major email clients.</li>
-    <li>Delivered 2 live newsletters from concept to launch with accessibility and mobile-first layouts.</li>
+    <li>Designed and coded responsive HTML/CSS newsletters optimized for major email clients. Using Salesforce Marketing Cloud and Mailchimp with cross-client compatibility.</li>
+    <li>Development of web applications, dashboards, and user-centric platforms.</li>
     <li>Conducted A/B testing on subject lines, layout formats, and CTA placement.</li>
-    <li>Built templates using Salesforce Marketing Cloud and Mailchimp with cross-client compatibility.</li>
-    <li>Content creation and writing for newsletters and social media.</li>
-    <li>Designed responsive eCommerce flows in WordPress and Framer.</li>
+    <li>Responsibility for architectural decisions and prototyping from conception to launch.</li>
+    <li>Building for performance optimization, accessibility, and a mobile-first approach.</li>
+    <li>Conducting UX research on user behavior and market trends.</li>
   </ul>
 </div>
 
@@ -128,8 +129,8 @@ export default function History() {
     <li>Delivered 20+ responsive websites from Figma/Sketch to React, Vite, or Angular apps.</li>
     <li>Built reusable components and interactive features, increasing session duration by 25%.</li>
     <li>Optimized performance via code splitting and lazy loading (40% faster loads).</li>
-    <li>Improved Google Lighthouse SEO scores.</li>
-    <li>Integrated REST APIs and implemented e-commerce solutions.</li>
+    <li>Scalable frontend architecture and state management and component-based development.</li>
+    <li>Integrated REST APIs and implemented e-commerce solutions. In both design and production systems.</li>
   </ul>
 </div>
 
