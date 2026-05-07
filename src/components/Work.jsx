@@ -15,7 +15,7 @@ const projects = [
     link: "https://neongrizzly.com/"
   },
   {
-    title: "Katana Coach",
+    title: "Katana Coaching",
     description: "Improving landing page performance and user experience on mobile fiteness app.",
     gif: "/gifs/Katana.gif",
     link: "https://katanacoach.com/"
