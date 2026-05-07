@@ -86,8 +86,10 @@ export default function History() {
 
           {/* BUTTONS */}
           <div className="buttons">
-            <a href="https://drive.google.com/file/d/1rPoKA51oNIP9cHHp6faJxj-KppKpSNFM/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn glow">My Resume</button></a>
+            <a href="https://drive.google.com/file/d/1arAVFQxr7ZYRkOmg0YMaSiTbisCRY_kB/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn glow">My Resume</button></a>
             <a href="https://www.coursera.org/account/accomplishments/professional-cert/Q9S3RXYKXTJE" target="_blank" rel="noopener noreferrer"><button className="btn glow alt">Google UX Cert</button></a>
+             <a href="https://www.udemy.com/certificate/UC-56b5b57f-4d4b-412c-8c48-42ea84e16437/" target="_blank" rel="noopener noreferrer"><button className="btn glow alt">JavaScript Cert</button></a>
+             <a href="https://www.udemy.com/certificate/UC-1c7f69d6-1b1b-4620-b59c-14e6566db30e/" target="_blank" rel="noopener noreferrer"><button className="btn glow alt">HTML/CSS Cert</button></a>
           </div>
 
         </div>
