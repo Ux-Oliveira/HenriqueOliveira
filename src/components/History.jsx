@@ -115,10 +115,9 @@ export default function History() {
   <ul class="job-points">
     <li>Designed and coded responsive HTML/CSS newsletters optimized for major email clients.</li>
     <li>Development of web applications, dashboards, and user-centric platforms.</li>
-    <li>Conducted A/B testing on subject lines, layout formats, and CTA placement.</li>
+    <li>Conducted A/B, UX research, testing on subject lines, layout formats, and CTA placement.</li>
     <li>Responsibility for architectural decisions and prototyping from conception to launch.</li>
     <li>Building for performance optimization, accessibility, and a mobile-first approach.</li>
-    <li>Conducting UX research on user behavior and market trends.</li>
   </ul>
 </div>
 
